@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   background: #cc1616;
   color: #fff;
-  transition: all 0.4s;
+  transition: all 0.40;
 }
 
 .back-to-top i:hover {
@@ -162,8 +162,8 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(52, 58, 64, 0.2);
-  transition: all 0.5s;
+  background:rgba(52, 58, 64, 0.2);
+  transition: all .5s;
   z-index: 997;
   top: 40px;
 }
@@ -447,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
-  padding-top: 70px;
+  padding-top: 200px;
 }
 
 #hero h1 {
@@ -455,14 +455,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #fff;
 }
 
 #hero h2 {
   color: #eee;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 30px;
+  font-weight: 700;
+  /*line-height: 56px;*/
 }
 
 #hero .btn-get-started {
