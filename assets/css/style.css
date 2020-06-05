@@ -447,24 +447,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
-  padding-top: 200px;
+  padding-top: 390px;
 }
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 50px;
   /*text-transform: uppercase;*/
   color: #fff;
+  
 }
 
 #hero h2 {
   color: #eee;
   margin-bottom: 30px;
   font-size: 30px;
-  font-weight: 700;
-  /*line-height: 56px;*/
+  font-weight: 500;
+  line-height: 25px;
 }
 
 #hero .btn-get-started {
@@ -483,6 +484,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   background: #cc1616;
   border-color: #cc1616;
+  
 }
 
 @media (min-width: 1024px) {
